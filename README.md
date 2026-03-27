@@ -1,1 +1,1 @@
-# Java-Project-04
+# Simple Student Management System 
