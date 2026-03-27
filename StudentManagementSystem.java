@@ -57,11 +57,7 @@ public class StudentManagementSystem {
         String course = sc.nextLine();
 
         students.add(new Student(id, name, age, course));
-
         System.out.println(" Student added successfully!");
-
-        System.out.println("Student added successfully!");
-
     }
 
     static void viewStudents() {
@@ -105,10 +101,6 @@ public class StudentManagementSystem {
             }
         }
 
-
-        System.out.println("5Student not found!");
-
         System.out.println("Student not found!");
-
     }
 }
