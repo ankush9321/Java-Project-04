@@ -57,7 +57,7 @@ public class StudentManagementSystem {
         String course = sc.nextLine();
 
         students.add(new Student(id, name, age, course));
-        System.out.println("✅ Student added successfully!");
+        System.out.println("Student added successfully!");
     }
 
     static void viewStudents() {
@@ -86,7 +86,7 @@ public class StudentManagementSystem {
             }
         }
 
-        System.out.println("❌ Student not found!");
+        System.out.println("Student not found!");
     }
 
     static void deleteStudent() {
@@ -96,11 +96,11 @@ public class StudentManagementSystem {
         for (Student s : students) {
             if (s.id == id) {
                 students.remove(s);
-                System.out.println("🗑️ Student deleted!");
+                System.out.println("Student deleted!");
                 return;
             }
         }
 
-        System.out.println("❌ Student not found!");
+        System.out.println("Student not found!");
     }
 }
